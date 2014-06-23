@@ -27,6 +27,9 @@ author :
 #
 production_url : http://alexhayes.github.io
 
+# Kramdown - https://help.github.com/articles/migrating-your-pages-site-from-maruku
+markdown: kramdown
+
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
 JB :
