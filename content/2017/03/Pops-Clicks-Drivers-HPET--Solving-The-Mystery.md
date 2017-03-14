@@ -1,4 +1,10 @@
-# Clicks, Pops, Drivers and HPET - Low Latency Audio using Gigabyte EX58-UD4P
+Title: Clicks, Pops, Drivers and HPET - Low Latency Audio using Gigabyte EX58-UD4P
+Slug: pops-clicks-drivers-hpet-low-latency-audio-discovery
+Date: 2017-03-06 20:10 
+Category: Audio
+Tags: audio, daw, hpet, low latency audio, gigabyte
+Author: Alex Hayes 
+Summary: Clicks, Pops, Drivers and HPET - Low Latency Audio using Gigabyte EX58-UD4P 
 
 This blog post explores the various things I tried to stop clicks and pops occurring while using Ableton Live (Beta 9.7.2b1) with a Push 2 on Windows 10 using a rather ancient, but still very well performing, computer. I say very well performing because in Reaper I don't have any issues. I run 64 samples buffer using my [RME Fireface 400](https://www.rme-audio.de/en/products/fireface_400.php) no problems. On some large mixes I need to bump that up a little but mostly it stays on 64 samples. My ancient computer consists of;
 
