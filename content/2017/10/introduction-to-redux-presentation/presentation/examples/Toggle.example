@@ -1,0 +1,27 @@
+import React from 'react';
+import PropTypes from 'prop-types';
+
+export class Toggle extends React.Component {
+
+  static propTypes = {
+    active: PropTypes.bool.isRequired,
+    toggle: PropTypes.func.isRequired,
+  }
+
+  toggle = e => {
+    // Dispatches our toggle action
+    this.props.toggle();
+  }
+
+  render() {
+    return (
+      <div onclick={this.toggle}>
+        {this.props.active ? 'Active' : 'Inactive'}
+      </div>
+    );
+  }
+}
+
+...
+// connect component
+...

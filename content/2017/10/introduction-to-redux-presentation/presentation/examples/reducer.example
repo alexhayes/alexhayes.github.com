@@ -1,0 +1,16 @@
+import { TOGGLE } from './consts';
+
+const initialState = {
+  active: false,
+};
+
+function reducer(state=initialState, action) {
+  if (action.type === TOGGLE) {
+    return {
+      ...state,
+      active: !state.active
+    }
+  }
+  return state;
+}
+

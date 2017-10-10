@@ -1,0 +1,12 @@
+// Initialise
+let state = reducer();
+// state.active === false
+
+// Someone toggled a button
+state = reducer(state, "toggle");
+// state.active === true
+
+// Someone toggled the button again
+state = reducer(state, "toggle");
+// state.active === false
+
