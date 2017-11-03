@@ -1,0 +1,4 @@
+import { createStore } from 'redux';
+import toggleReducer from './reducers'
+
+let store = createStore(toggleReducer, window.INITIAL_STATE);

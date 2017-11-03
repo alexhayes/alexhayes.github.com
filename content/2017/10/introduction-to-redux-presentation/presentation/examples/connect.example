@@ -1,0 +1,18 @@
+import { connect } from 'react-redux';
+import { toggle } from './action-creators';
+
+...
+...
+// Define Toggle component
+...
+...
+
+const mapStateToProps = store => ({
+  active: store.active,
+});
+
+const mapDispatchToProps = {
+  toggle,
+};
+
+export default connect(mapStateToProps, mapDispatchToProps)(Toggle);

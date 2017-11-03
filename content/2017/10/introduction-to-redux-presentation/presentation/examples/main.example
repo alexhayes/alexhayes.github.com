@@ -1,0 +1,12 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
+import AppContainer from './AppContainer';
+import { createStore } from 'redux';
+import toggleReducer from './reducers';
+
+const store = createStore(toggleReducer, window.__INITIAL_STATE__);
+
+ReactDOM.render(
+  <AppContainer store={store} />,
+  document.getElementById('root')
+);

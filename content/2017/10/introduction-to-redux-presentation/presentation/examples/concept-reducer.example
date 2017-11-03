@@ -1,0 +1,18 @@
+const initialState = {
+  active: false,
+};
+
+/**
+ * Not really a real reducer...
+ */
+function reducer(state=initialState, action) {
+  if (action === 'toggle') {
+    // NOTE: Return new state, never mutate old state!
+    return {
+      active: !state.active
+    }
+  }
+  // We must return the state even if we didn't change it
+  return state;
+}
+

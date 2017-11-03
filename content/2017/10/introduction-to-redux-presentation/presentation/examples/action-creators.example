@@ -1,0 +1,9 @@
+import { TOGGLE } from './consts.js';
+
+// Action creator - just a function that defines what happened
+export function toggle() {
+  // Generally action creators return a type
+  return {
+    type: TOGGLE,
+  };
+}
