@@ -1,10 +1,14 @@
-Title: Integrate Hamster with Trac
+---
+title: Integrate Hamster with Trac
 Slug: integrate-hamster-with-trac 
 Date: 2014-06-23 19:19
 Category: Time Tracking 
-Tags: trac, hamster 
+tags:
+    - workflow
+    - software-development
 Author: Alex Hayes
 Summary: Integrate the Ubuntu time tracking applet Hamster with project management software Trac.
+---
 
 For a long time now I've used [Project Hamster](http://projecthamster.wordpress.com/) on [Ubuntu Linux](http://www.ubuntu.com/) to keep track of time I spend on (mainly) development tasks - starting back in the good old Gnome 2.x days and now within Gnome 3.x.
 

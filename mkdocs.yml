@@ -80,3 +80,5 @@ plugins:
   - search
   - awesome-pages:
       filename: .pages.yaml
+  - tags:
+      tags_file: tags.md
