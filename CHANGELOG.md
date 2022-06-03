@@ -1,3 +1,7 @@
+# 3.0.0
+
+- Migrate to MkDocs Material
+
 # 2.0.0
 
 - Now using pelican

@@ -1,0 +1,9 @@
+:root>* {
+    --md-primary-fg-color: rgb(20, 195, 142);
+    --md-accent-fg-color: rgb(0, 255, 171);
+}
+
+body > header.md-header {
+    /* This is necessary because it doesn't appear you can separately control the header colour - it's set by the fg colour, which also controls the link color. */
+    background-color: #14C38E !important;
+}

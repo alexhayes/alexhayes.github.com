@@ -1,0 +1,7 @@
+#!/bin/bash -e
+
+cd "$(dirname "$0")"/..
+
+echo "+++ Deploy documentation with MKdocs"
+
+mkdocs gh-deploy --remote-branch gh-pages --message "[skip ci] Deployed {sha} with MkDocs version: {version}"
